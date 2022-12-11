@@ -38,10 +38,12 @@ void DiffMaxMin(double[] arr)
     Console.Write($"Max: {n_max}, min: {n_min}. ");
     Console.WriteLine($"Difference: {n_max} - ({n_min}) = {Math.Round(n_max - n_min, 2)}");
 }
+    
 
 double[] arr_1 = MassNums(int.Parse(Console.ReadLine()),
                          int.Parse(Console.ReadLine()),
                          int.Parse(Console.ReadLine()));
     
 Print(arr_1);
-Console.WriteLine(DiffMaxMin(arr_1));
+DiffMaxMin(arr_1);
+
