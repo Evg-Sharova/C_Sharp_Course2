@@ -37,7 +37,7 @@ void ChangeMass(int[,] arr)
   
         for (int i = 0; i < row; i++)
         {
-            for (int j = 0; j < i; j++)
+            for (int j = 0; j < column; j++)
             {
                  for (int k = 0; k < column - j -1; k++)
                     if (arr[i, k] <arr [i, k+1])
